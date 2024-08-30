@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="js.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+            <legend>Quiz</legend>
+            
+            <!-- Question 1 -->
+            <label for="Q1o1">1. What's the capital of France?</label><br>
+            <input type="radio" name="Q1" id="Q1o1" value="Paris">
+            <label for="Q1o1">Paris</label><br>
+            <input type="radio" name="Q1" id="Q1o2" value="Faridabad">
+            <label for="Q1o2">Faridabad</label><br>
+            <input type="radio" name="Q1" id="Q1o3" value="Bahadurgarh">
+            <label for="Q1o3">Bahadurgarh</label><br>
+            <input type="radio" name="Q1" id="Q1o4" value="Jind">
+            <label for="Q1o4">Jind</label><br><br>
+            
+            <!-- Question 2 -->
+            <label>2. Which of the following are programming languages?</label><br>
+            <input type="checkbox" name="Q2" id="Q2o1" value="C#">
+            <label for="Q2o1">C#</label><br>
+            <input type="checkbox" name="Q2" id="Q2o2" value="HTML">
+            <label for="Q2o2">HTML</label><br>
+            <input type="checkbox" name="Q2" id="Q2o3" value="CSS">
+            <label for="Q2o3">CSS</label><br>
+            <input type="checkbox" name="Q2" id="Q2o4" value="JavaScript">
+            <label for="Q2o4">JavaScript</label><br><br>
+            
+            <!-- Question 3 -->
+            <label for="Q3">3. Who was the writer of the song Charas Ganja?</label><br>
+            <input type="text" id="Q3" name="Q3"><br><br>
+            
+             <!-- Question 4 -->
+             <label for="Q4">3. Drag the elements into the right box</label><br>
+             <div id="drag-container">
+                <div class="drag-item" draggable="true" id="item1">Paris</div>
+                <div class="drag-item" draggable="true" id="item2">Delhi</div>
+                <div class="drag-item" draggable="true" id="item3">Wellington</div>
+                </div><br>
+            </div>
+
+            <div class="drop-box" id="drop-box1">
+                <p>India</p>
+            </div>
+            <div class="drop-box" id="drop-box2">
+                <p>New Zealand</p>
+            </div>
+            <div class="drop-box" id="drop-box3">
+                <p>France</p>
+            </div>
+            
+            <br><button id="check-answers">Check Answers</button>
+            <div id="feedback"></div>
+    </form>
+</body>
+</html>
