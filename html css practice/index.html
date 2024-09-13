@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="css.css" rel="stylesheet">
+<body>
+    <!--
+    <h1>Hi this is first task</h1> 
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla recusandae temporibus, adipisci sint velit laboriosam repellat cum libero quisquam totam, natus ex numquam quia facilis earum suscipit! Saepe, itaque praesentium.
+    Facilis laboriosam optio, vero quasi, eius numquam ullam quia atque, alias praesentium quidem fugiat. Est quo aperiam laboriosam enim dolores, ducimus magnam dolorem corrupti commodi! Ipsum quasi eius eos facere.
+    Obcaecati nihil corporis id excepturi, ut incidunt eius nulla enim hic dolorem natus doloremque, eveniet officiis, autem voluptatibus in vel quo! Corrupti magni nesciunt optio ea eos nam, natus doloremque!
+    Ea nobis quidem quisquam dolor. Rerum iste distinctio, velit recusandae ipsam impedit nesciunt officiis incidunt similique quibusdam modi quasi facilis minus ducimus sequi, ea inventore eligendi quas repellendus, reiciendis veritatis.
+    Doloremque dolorem consequatur quas architecto impedit distinctio, rem illo amet voluptate aperiam consectetur at! Inventore ullam dignissimos sapiente, qui, porro rem unde aliquam consectetur architecto ipsum, corrupti officiis laborum provident.</p>
+    <img src="data:image/png;base64,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" alt="its a rendom img"
+
+    <h1>Task 2</h1>
+    <button id="button" class="button">Button</button>
+    
+
+    <h1>Task 3</h1>
+    <ul>
+        <li><a href="#hi">hi</a></li>
+        <li><a href="#hello">hello</a></li>
+        <li><a href="#namestey">namestey</a></li>
+        <li><a href="#Ram Ram">Ram Ram</a></li>
+        <li><a href="#aslam whalekum">aslam whalekum</a></li>
+    </ul>
+    <p id="hi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, numquam dignissimos laboriosam nisi, asperiores laborum esse nostrum illum harum optio corrupti dicta architecto velit! Recusandae dicta iure tempora ipsa nobis?
+        Perspiciatis qui asperiores quibusdam magni! Explicabo, quasi. Autem cum excepturi quaerat inventore quae dignissimos, architecto id ex, distinctio natus ipsam quidem fugit. Suscipit voluptatem velit dolorem, voluptas impedit explicabo et.</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p id="hello">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, numquam dignissimos laboriosam nisi, asperiores laborum esse nostrum illum harum optio corrupti dicta architecto velit! Recusandae dicta iure tempora ipsa nobis?
+            Perspiciatis qui asperiores quibusdam magni! Explicabo, quasi. Autem cum excepturi quaerat inventore quae dignissimos, architecto id ex, distinctio natus ipsam quidem fugit. Suscipit voluptatem velit dolorem, voluptas impedit explicabo et.</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p id="namestey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, numquam dignissimos laboriosam nisi, asperiores laborum esse nostrum illum harum optio corrupti dicta architecto velit! Recusandae dicta iure tempora ipsa nobis?
+                Perspiciatis qui asperiores quibusdam magni! Explicabo, quasi. Autem cum excepturi quaerat inventore quae dignissimos, architecto id ex, distinctio natus ipsam quidem fugit. Suscipit voluptatem velit dolorem, voluptas impedit explicabo et.</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <p id="Ram Ram">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, numquam dignissimos laboriosam nisi, asperiores laborum esse nostrum illum harum optio corrupti dicta architecto velit! Recusandae dicta iure tempora ipsa nobis?
+                    Perspiciatis qui asperiores quibusdam magni! Explicabo, quasi. Autem cum excepturi quaerat inventore quae dignissimos, architecto id ex, distinctio natus ipsam quidem fugit. Suscipit voluptatem velit dolorem, voluptas impedit explicabo et.</p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p id="aslam whalekum">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, numquam dignissimos laboriosam nisi, asperiores laborum esse nostrum illum harum optio corrupti dicta architecto velit! Recusandae dicta iure tempora ipsa nobis?
+                        Perspiciatis qui asperiores quibusdam magni! Explicabo, quasi. Autem cum excepturi quaerat inventore quae dignissimos, architecto id ex, distinctio natus ipsam quidem fugit. Suscipit voluptatem velit dolorem, voluptas impedit explicabo et.</p>
+                       
+
+                        <h1>Task 4</h1>
+                        <img class="img" src="download.jpg" alt="its a rendom img">
+                        
+    
+    <footer>
+        <h3>Address: 132 Leath St, Centeral Dunedin, Dunedin, New Zealand</h3>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.053094028095!2d170.50962097648997!3d-45.87024733591222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa82eac6c824a0731%3A0x63a9dca1423e92c6!2s132%20Leith%20Street%2C%20Central%20Dunedin%2C%20Dunedin%209016!5e0!3m2!1sen!2snz!4v1726191111782!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <h3>To contact us: <br> <a class="a" href="https://www.google.com/search?q=shortcut+key+to+comment+a+line+in+visual+studio&sca_esv=de5534b79ca5d3d3&rlz=1C1ONGR_enNZ1029NZ1029&biw=1600&bih=773&sxsrf=ADLYWILZrRnGlebs00MCu0vrMfp3fM0JoA%3A1726188421127&ei=hYvjZsG8B8Hk4-EP696eoAk&oq=shortcut+key+to+comment+a+line+in+vs&gs_lp=Egxnd3Mtd2l6LXNlcnAiJHNob3J0Y3V0IGtleSB0byBjb21tZW50IGEgbGluZSBpbiB2cyoCCAAyBhAAGBYYHjIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEighgFQnQtY3XdwA3gBkAEBmAHFAqABvEeqAQYyLTM5LjG4AQHIAQD4AQGYAiqgAoRJqAIUwgIHECMYJxjqAsICExAAGIAEGEMYtAIYigUY6gLYAQHCAgQQIxgnwgIKECMYgAQYJxiKBcICChAAGIAEGEMYigXCAhEQLhiABBixAxjRAxiDARjHAcICBBAAGAPCAg4QABiABBixAxiDARiKBcICCxAAGIAEGLEDGIMBwgILEAAYgAQYkQIYigXCAg0QABiABBixAxhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICDhAuGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYigXCAhMQLhiABBixAxjRAxhDGMcBGIoFwgIIEAAYgAQYsQPCAgsQABiABBiSAxiKBcICCBAAGIAEGMkDwgIFEAAYgATCAgsQLhiABBixAxiDAcICChAuGIAEGBQYhwLCAhAQLhiABBjRAxgUGIcCGMcBwgIFEC4YgATCAgoQABiABBgUGIcCwgIHEAAYgAQYDcICChAAGBYYChgeGA_CAggQABiiBBiJBZgDEboGBggBEAEYAZIHCDMuMC4zOC4xoAe62wI&sclient=gws-wiz-serp">Click here.</a></h3>
+        <br>
+        <h3>Please write your feedback about our website here:</h3>
+        <br>
+        <textarea class="textholder" placeholder="Type Something..."></textarea>
+        <br>
+        <input type="submit" class="submit">
+    </footer>
+     >-->
+
+     
+</body>
+</html>
